@@ -1,9 +1,9 @@
-k=int(input())
+K=int(input())
 
-def f(k):
-    if k==0:
+def f(K):
+    if K==0:
         return 1
     else:
-        return k*f(k-1)
+        return K*f(K-1)
 
-print(f(k))
+print(f(K))
