@@ -1,5 +1,5 @@
 N=int(input())
-for i in range(10):
-    if i*111>= N :
-        print(i*111)
+for x in range(10):
+    if x*111>= N :
+        print(x*111)
         break
