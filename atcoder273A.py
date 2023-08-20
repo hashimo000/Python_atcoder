@@ -6,4 +6,5 @@ def f(K):
     else:
         return K*f(K-1)
 
+
 print(f(K))
